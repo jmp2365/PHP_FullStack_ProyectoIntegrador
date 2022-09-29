@@ -18,10 +18,16 @@
     color: white;
 }
 
+.btn-verde {
+    background-color: #96C93E;
+    color: white;
+}
+
 .text-footer {
     color: white;
 }
 
 .Bkg-Footer {
-    background-color: #193249;
+    height: 100px;
+    background-image: linear-gradient(to right, #1C3643, #1E5372);
 }
