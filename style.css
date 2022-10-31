@@ -20,6 +20,13 @@
 
 .btn-verde {
     background-color: #96C93E;
+    border-color: #96C93E;
+    color: white;
+}
+
+.btn.btn-verde:hover{
+    background-color: #243506;
+    border-color: #243506;
     color: white;
 }
 
@@ -28,6 +35,26 @@
 }
 
 .Bkg-Footer {
+    display: flex;
+    flex-wrap: nowrap;
     height: 100px;
     background-image: linear-gradient(to right, #1C3643, #1E5372);
+}
+
+.tarjetas {
+    border-style: solid;
+    border-radius: 0%;
+    border-width: 0.15rem;
+}
+
+.borde_estudiante {
+    border-color: blue;
+}
+
+.borde_trainee {
+    border-color: #00eeff;
+}
+
+.borde_junior {
+    border-color: #e5ff00;
 }
